@@ -1,0 +1,132 @@
+/* Andrej Bardakoski 201149 */
+body {
+    background-color: #00496c;
+}
+.container{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    width: 770px;
+    background: url("img/cover_top.png") no-repeat,url("img/cover_bot.png") bottom no-repeat, url("img/cover.png");
+    background-origin: border-box;
+    color: dimgray;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+header h1,header h2,#div-introduction h3,#div-about h3,#div-people h3,.select,.backstage{
+    display: none;
+}
+.top{
+    margin: 0 25px 0 25px;
+    padding-left: 380px;
+    background: url("img/game-of-thrones.jpg") 0 10px no-repeat, url("img/ice-and-fire.jpg") 0 81px  no-repeat,
+    url("img/introduction.png") 75px 123px no-repeat, url("img/img_1.jpg") no-repeat 0 194px;
+}
+#div-summary{
+    font-size: 11px;
+    line-height: 1.5;
+}
+#div-summary> p:first-child{
+    display: inline-block;
+    width: 250px;
+}
+#div-summary > p:last-child{
+    background: url("img/bookmark.jpg") no-repeat;
+    width: 61px;
+    height: 131px;
+    margin-top: 5px;
+    padding: 20px 10px 0 10px ;
+    display: inline-block;
+    color: white;
+}
+#div-summary > p:last-child > a{
+    color: white;
+}
+#div-introduction{
+    font-size: 13px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+#div-about{
+    background: url("img/about.png") 400px 0 no-repeat,url("img/img_2.jpg") 400px 60px no-repeat;
+    width: 330px;
+    padding-left: 35px;
+    padding-right: 400px;
+    font-style: italic;
+    text-align:  right;
+    padding-bottom: 10px;
+}
+#div-people{
+    background: url("img/people.png") 200px 0 no-repeat,url("img/img_3.jpg") 35px 50px no-repeat;
+    width: 333px;
+    padding-left: 400px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+#div-people p:first-child{
+    margin-bottom: 0;
+}
+#div-people p:last-child{
+    margin-top: 4px;
+}
+#div-people2{
+    width: 333px;
+    padding-left: 400px;
+    font-style: italic;
+}
+footer{
+    background: url("img/cover_bot.png") 0 0 no-repeat;
+    padding-top: 50px;
+    width: 333px;
+    padding-left: 400px;
+    text-align: center;
+
+}
+footer a{
+    color: dimgray;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sidebar{
+    margin-top: -475px;
+}
+#div-most-visited{
+    background: url("img/most-visited.png") 70px 0 no-repeat;
+    padding-top: 25px;
+    padding-left: 60px;
+}
+#div-most-visited li{
+    list-style-image: url("img/bull.png");
+}
+#div-most-visited a{
+    text-decoration: none;
+    color: darkblue;
+    font-style: italic;
+}
+#div-most-visited a:hover{
+    color: darkred;
+}
+#div-backstage-links{
+    background:  url("img/backstage.png") 75px 20px no-repeat, url("img/notes.jpg") 60px 0 no-repeat;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+#div-backstage-links li{
+    list-style: none;
+    padding-top: 4px;
+}
+#div-backstage-links a{
+    text-decoration: none;
+    color: darkblue;
+}
+#div-backstage-links a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: darkred;
+    border: dimgray solid 1px;
+}

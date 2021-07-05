@@ -1,0 +1,103 @@
+/*p-------------------------------------------------------------------------
+
+201149 Andrej Bardakoski
+
+----------------------------------------------------------------------------*/
+body{
+    font-family: Verdana,Arial,Serif;
+    font-size: 11px;
+    line-height: 1.5;
+}
+#container{
+    background: url("containerbackground.gif");
+    width: 663px;
+    margin: auto;
+}
+#pageHeader, #preamble h3, #explanation h3,#participation h3,#lselect h3,#lresources h3{
+    display: none;
+}
+#intro{
+    background: url("top.gif") no-repeat;
+    width: 605px;
+    margin: auto;
+    padding-top: 330px;
+}
+#quickSummary{
+    margin-right: 7px;
+    background: url("summary.gif") no-repeat;
+    width: 172px;
+    float: right;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#preamble{
+    background: url("title1.gif") no-repeat;
+    width: 359px;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#supportingText{
+    width: 400px;
+    margin-left: 29px;
+    display: inline-block;
+}
+#explanation{
+    background: url("title2.gif") no-repeat;
+    margin-left: 8px;
+    padding: 50px 15px 0 ;
+}
+#participation{
+    background: url("title3.gif") no-repeat;
+    margin-left: 8px;
+    padding: 50px 15px 0 ;
+}
+#participation li{
+    line-height: 2;
+}
+#participation a{
+    text-decoration: none;
+    color: red;
+}
+#linkList{
+    width: 192px;
+    margin-right: 36px;
+    margin-top: -60px;
+    float: right;
+}
+#lselect{
+    background: url("designs.gif") no-repeat;
+    padding: 50px 10px 0 0 ;
+}
+#lresources{
+    background: url("resources.gif") no-repeat;
+    padding: 50px 10px 0 0;
+}
+#lselect li{
+    list-style-image: url("paperfolded.gif");
+    line-height: 1.6;
+}
+#lresources li{
+    list-style-image: url("paper.gif");
+    line-height: 2;
+}
+#lresources a{
+    text-decoration: none;
+    color: red;
+}
+#extraDiv1::before{
+    content: "Animation?";
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+#extraDiv1{
+    margin-top: -1185px;
+    margin-left: 790px;
+}
+a:hover{
+    opacity: 0.5;
+}

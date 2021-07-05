@@ -1,0 +1,361 @@
+/* Андреј Бардакоски 201149 */
+
+/* Good Luck :) */
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background: url("../images/bg-footer.gif") bottom repeat-x,url("../images/bg-body.gif");
+    width: 1000px;
+    margin: auto;
+}
+#page{
+    background: url("../images/bg-page.gif") no-repeat;
+    width: 960px;
+    margin: auto;
+}
+
+#header ul:first-of-type li{
+    display: inline-block;
+    width: 100px;
+}
+#header ul:first-of-type {
+    margin: 0 0 0 40px;
+    width: 310px;
+    border-top: 1px gray dotted;
+    border-bottom: 1px gray dotted;
+    padding: 5px 0;
+}
+#header ul:first-of-type h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#header ul:first-of-type li:nth-child(2){
+    border-left: gray 1px dotted;
+    border-right: 1px gray dotted;
+}
+#header ul:first-of-type a,#header ul:first-of-type span{
+    color: #9f290b;
+}
+
+#header a:nth-of-type(2){
+    background: url("../images/interface.gif") 1px -262px no-repeat;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+#navigation{
+    display: inline-block;
+    width: 590px;
+    margin-top: -369px;
+    float: right;
+}
+#navigation li{
+    margin-top: 18px;
+    display: inline-block;
+    padding: 0 10px;
+}
+#navigation a{
+    color: white;
+}
+#link1{
+    background: url(../images/navigation.gif) 0 -5px no-repeat;
+    width: 60px;
+    height: 32px;
+}
+#link1 a{
+    color: #9f290b;
+    padding-left: 10px;
+}
+.jumbotron{
+    margin: -312px 0 0 347px;
+    background: url(../images/lion-family.jpg) no-repeat;
+    width: 597px;
+    height: 357px;
+}
+.jumbotron+div{
+    background: url(../images/interface.gif) 13px -196px no-repeat;
+    height: 63px;
+    width: 960px;
+}
+.jumbotron+div h1{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 40px;
+    color: #ca9248;
+}
+.jumbotron+div p{
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 50px;
+    color: #ddd;
+}
+.jumbotron+div a{
+    font-weight: 600;
+    color: white;
+}
+#featured{
+    background: url(../images/interface.gif) no-repeat;
+    height: 190px;
+    width: 960px;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+#featured h2{
+    color: #cb0909;
+    margin: 20px 0 10px 0;
+}
+#featured ul{
+    margin: 10px 0;
+    padding: 0;
+}
+#featured li{
+    display: inline-block;
+    width:  100px;
+    height: 130px;
+    padding-left: 12px;
+}
+#featured li.first{
+    padding-left: 0;
+}
+#featured li a:first-child{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#featured li:first-child a:first-child{
+    background: url("../images/penguin.jpg") no-repeat;
+}
+#featured li:nth-child(2) a:first-child{
+    background: url("../images/elephant.jpg") no-repeat;
+}
+#featured li:nth-child(3) a:first-child{
+    background: url("../images/owl.jpg") no-repeat;
+}
+#featured li:nth-child(4) a:first-child{
+    background: url("../images/butterfly.jpg") no-repeat;
+}
+#featured li:nth-child(5) a:first-child{
+    background: url("../images/turtle.jpg") no-repeat;
+}
+#featured li:nth-child(6) a:first-child{
+    background: url("../images/snake.jpg") no-repeat;
+}
+#featured li:nth-child(7) a:first-child{
+    background: url("../images/gorilla.jpg") no-repeat;
+}
+#featured li:nth-child(8) a:first-child{
+    background: url("../images/button-view-gallery.jpg") no-repeat;
+}
+#featured li a:last-child{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.section1{
+    float: left;
+    display: inline-block;
+    width: 220px;
+    height: 470px;
+}
+.section1>h2,.section2>h2{
+    color: #cb0909;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+#article li{
+    list-style-type: none;
+}
+#article li>a:first-child{
+    color: #cb0909;
+    display: inline-block;
+    margin-top: 7px;
+}
+#article p{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: saddlebrown;
+
+}
+#article li:nth-child(2){
+    border-top: 1px gray dashed;
+    border-bottom: 1px gray dashed;
+}
+#article p a,.section2>ul a,#section2 p a{
+    color: saddlebrown;
+    text-decoration: underline;
+}
+.section2{
+    float: left;
+    margin-right: 40px;
+    display: inline-block;
+    width: 490px;
+    height: 470px;
+}
+.section2>p{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: saddlebrown;
+}
+.section2>ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: url("../images/dolphins.jpg") 40px 0 no-repeat;
+    height: 145px;
+    width: 450px;
+    color: saddlebrown;
+}
+.section2>ul li{
+    margin-left: 230px;
+}
+.section2>ul p{
+    color: saddlebrown;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+#section1{
+    float: left;
+    width: 320px;
+}
+#section1 li{
+    list-style-type: none;
+    height: 95px;
+}
+#section1 li>h4,#section1 li>p, #section1 li>a{
+    float: left;
+    width: 140px;
+    display: inline-block;
+    color: saddlebrown;
+    font-size: 15px;
+    margin: 0;
+}
+#section1 li>h4>a{
+    color: saddlebrown;
+    font-weight: 600;
+}
+#section2{
+    float: left;
+    width: 140px;
+}
+#section2 ul{
+    padding-left: 20px;
+}
+#section2 li{
+    list-style-type: none;
+}
+#section2 a,#section2 h4,#section2 p{
+    display: inline-block;
+    color: saddlebrown;
+    font-size: 15px;
+    margin: 0;
+}
+.section3 h3,.section3 h2{
+    color: #cb0909;
+}
+.section3>a{
+    display: inline-block;
+    width: 150px;
+    padding-left: 35px;
+    height: 20px;
+    color: saddlebrown;
+}
+#email{
+    background: url("../images/icons.gif") 0 1px no-repeat;
+}
+#facebook{
+    background: url("../images/icons.gif") 0 -20px no-repeat;
+}
+#twitter{
+    background: url("../images/icons.gif") 0 -40px no-repeat;
+}
+.section3 form h2{
+     margin: 0;
+}
+.section3 form h3{
+    margin-bottom: 0;
+}
+.section3 form{
+    margin-bottom: 55px;
+}
+.section3 input{
+    font-style: italic;
+}
+.section3 img{
+    padding-bottom: 30px;
+}
+#footer .logo{
+    display: inline-block;
+    background: url("../images/animal-kingdom.jpg") 0 -12px no-repeat;
+    width: 203px;
+    height: 178px;
+    float: left;
+}
+#footer>div>div,#footer>div>ul{
+    float: left;
+    width: 200px;
+    height: 170px;
+    padding-left:50px;
+    color: #9d7860;
+    margin: 0;
+}
+.navigation li{
+    display: inline-block;
+    margin-top: 10px;
+    width: 70px;
+    list-style-type: none;
+}
+#footer a{
+    color: #9d7860;
+}
+#footer ul:nth-of-type(2){
+    list-style-type: none;
+    padding-left: 20px;
+}
+#footer>div>p{
+    color: #9d7860;
+    clear: both;
+    text-align: center;
+}
+#header h2>a:hover{
+    color: red;
+}
+#header a:nth-of-type(2):hover{
+    opacity: 0.5;
+}
+#navigation a:hover{
+    color: #d08f61;
+}
+#header div:last-child a:hover{
+    color: #ffaeba;
+}
+#featured li:hover a:first-of-type{
+    opacity: 0.5;
+}
+#featured li:hover a:last-child{
+    color: #856161;
+}
+#article li>a:hover{
+    color: red;
+}
+#article p>a:hover,.section2>ul a:hover,#section1 h4 a:hover,#section2 a:hover,.section3 a:hover{
+    color: #de781e;
+}
+#section1 li>a:hover,#section2 li>a:hover,#email:hover,#facebook:hover,#twitter:hover{
+    opacity: 0.5;
+}
+#footer a:hover{
+    color: #d7b59a;
+}
+#footer>div>a:hover,#logo:hover{
+    opacity: 0.75;
+}
